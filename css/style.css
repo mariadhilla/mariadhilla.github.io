@@ -205,6 +205,11 @@ a:hover {
   font-weight: 700;
 }
 
+.navbar-img {
+  width: 100%;
+  height: auto;
+}
+
 ul.dropdown-menu {
   background: rgb(21, 21, 21);
   border-radius: 0px;
