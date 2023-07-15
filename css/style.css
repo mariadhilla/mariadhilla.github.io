@@ -23,14 +23,14 @@ body {
   font-family: "Nunito Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.166667px;
   line-height: 1.7em;
-  color: #818385;
+  color: #353535;
 }
 
 p {
-  color: #818385;
+  color: #353535;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -42,11 +42,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 h1, .h1 {
   font-size: 45px;
   text-transform: none;
+  font-weight: 1000;
 }
 
 h2, .h2 {
   font-size: 42px;
   line-height: 52px;
+  font-weight: 800;
 }
 
 h3, .h3 {
