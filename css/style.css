@@ -115,30 +115,6 @@ h6, .h6 {
   margin: 0 10px;
 }
 
-/* a {
-  font-family: Montserrat;
-  position: relative;
-  text-decoration: none;
-}
-
-a:after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  display: block;
-  margin-top: 0px;
-  left: 0%;
-  background: black;
-  transition: width .3s ease;
-}
-
-a:hover:after{
-  width: 100%;
-  left: 0%;
-  background: black;
-} */
-
 .cursor {
   width: 40px;
   height: 40px;
