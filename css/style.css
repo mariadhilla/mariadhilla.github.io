@@ -25,7 +25,7 @@ body {
   font-size: 18px;
   font-weight: 300;
   letter-spacing: 0.166667px;
-  line-height: 1.3em;
+  line-height: 1.5em;
   color: #353535;
 }
 
@@ -72,6 +72,54 @@ h6, .h6 {
   font-size: 14px;
 }
 
+/* added */
+
+/* .center {
+  width: 50%;
+  margin: auto;
+}
+
+.wrapper {
+  text-align: center;
+}
+.wrapper ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.wrapper li {
+  float: left;
+  padding: 2px 5px;
+} */
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #fafafa;
+  border: 1.1px solid #fafafa;
+  padding: 5px;
+  border-radius: 50%;
+}
+.socials a i{
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color .4s ease;
+}
+.socials a:hover i{
+  color: #4440ff;
+}
+
+/* end added */
+
 .text-sm {
   font-size: 14px;
 }
@@ -102,34 +150,34 @@ h6, .h6 {
 
 .btn-main {
   background: #4440ff;
-  color: #fff;
+  color: #fafafa;
 }
 .btn-main:hover {
-  color: #fff !important;
-  background: #000;
+  color: #fafafa !important;
+  background: #353535;
 }
 
 .btn-black {
-  background: #000;
-  color: #fff;
+  background: #353535;
+  color: #fafafa;
 }
 .btn-black:hover {
   background: #4440ff;
-  color: #fff;
+  color: #fafafa;
 }
 
 .btn-white {
-  background: #fff;
-  color: #000;
-  border-color: #fff;
+  background: #fafafa;
+  color: #353535;
+  border-color: #fafafa;
 }
 .btn-white:hover {
   background: transparent;
-  color: #fff;
+  color: #fafafa;
 }
 
 a {
-  color: #000;
+  color: #353535;
   transition: all 0.25s ease;
 }
 a:hover {
@@ -232,7 +280,7 @@ ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid #27243e;
-  color: #fff;
+  color: #fafafa;
   text-transform: uppercase;
 }
 ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hover {
@@ -240,7 +288,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
-  color: #fff;
+  color: #fafafa;
   text-decoration: none;
   background-color: transparent;
 }
@@ -447,7 +495,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 }
 
 .inner-box .image h3 {
-  color: #fff;
+  color: #fafafa;
 }
 
 .overlay-content h5 {
@@ -475,8 +523,8 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
   height: 60px;
   display: inline-block;
   text-align: center;
-  background: #000;
-  color: #fff;
+  background: #353535;
+  color: #fafafa;
   padding-top: 16px;
   position: absolute;
   top: 40%;
@@ -523,17 +571,17 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 .progress-bar-content .progress-title {
   text-transform: capitalize;
   font-size: 14px;
-  color: #000;
+  color: #353535;
   font-weight: 600;
 }
 .progress-bar-content .progress-label {
   margin-bottom: 15px;
 }
 .progress-bar-content .progress-bar {
-  background: #000;
+  background: #353535;
 }
 .progress-bar-content .progress-bar-units {
-  color: #000;
+  color: #353535;
 }
 
 .about-list {
@@ -541,7 +589,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 }
 .about-list li {
   text-transform: capitalize;
-  color: #000;
+  color: #353535;
 }
 
 .progress {
@@ -600,7 +648,7 @@ textarea.form-control {
 }
 
 .text-black {
-  color: #000;
+  color: #353535;
 }
 
 .contact-title h2 {
@@ -658,11 +706,11 @@ textarea.form-control {
 }
 .pagination li a:hover {
   background: #4440ff;
-  color: #fff;
+  color: #fafafa;
 }
 .pagination li.active a {
   background: #4440ff;
-  color: #fff;
+  color: #fafafa;
 }
 
 .sidebar-widget .widget {
@@ -680,7 +728,7 @@ textarea.form-control {
   bottom: 0px;
   width: 30px;
   height: 2px;
-  background: #000;
+  background: #353535;
 }
 .sidebar-widget .follow a {
   margin-right: 10px;
@@ -750,11 +798,12 @@ textarea.form-control {
 }
 .footer {
   padding: 60px 0px;
-  background: #000;
+  background: #353535;
 }
 
 .footer-widget a {
-  color: rgba(255, 255, 255, 0.5);
+  /* color: rgba(255, 255, 255, 0.5); */
+  color: #fafafa;
   text-transform: capitalize;
 }
 .footer-widget a:hover {
