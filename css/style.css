@@ -20,7 +20,7 @@ html {
   cursor: none;
 }
 
-#circularcursor {
+/* #circularcursor {
   background-color: transparent;
   border:1px solid black;    
   height:20px;
@@ -30,7 +30,7 @@ html {
   -webkit-border-radius:50%;
   position: absolute;
   z-index: 1;
-}
+} */
 
 body {
   font-family: "Nunito Sans", sans-serif;
@@ -113,6 +113,68 @@ h6, .h6 {
 
 .nav-li {
   margin: 0 10px;
+}
+
+a {
+  font-family: Montserrat;
+  position: relative;
+  text-decoration: none;
+}
+
+a:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 0px;
+  left: 0%;
+  background: black;
+  transition: width .3s ease;
+}
+
+a:hover:after{
+  width: 100%;
+  left: 0%;
+  background: black;
+}
+
+.cursor {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  border: 1px #353535;
+  transition: all 200ms ease-out;
+  position: fixed;
+  pointer-events: none;
+  top: var(--y, 0);
+  left: var(--x, 0);
+  transform: translate(calc(-50% + 15px), -50%);
+  z-index: 2;
+  mix-blend-mode: difference;
+}
+
+.cursor2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #4440ff;
+  opacity: .5;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: width .3s, height .3s, opacity .3s;
+}
+
+/* .hover {
+  opacity: 0.5;
+} */
+
+.cursorinnerhover {
+  width: 50px;
+  height: 50px;
+  opacity: .5;
 }
 
 /* end added */
@@ -804,6 +866,6 @@ textarea.form-control {
   text-transform: capitalize;
 }
 .footer-widget a:hover {
-  color: #4440ff;
+  color: #bbbf00;
 }
 /*# sourceMappingURL=style.css.map */
