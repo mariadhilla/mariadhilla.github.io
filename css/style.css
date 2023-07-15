@@ -94,9 +94,8 @@ h6, .h6 {
   margin: 0 10px;
 }
 
-li:focus{
+.nav-active{
   color: #4440ff;
-  outline:none;
 }
 
 /* end added */
