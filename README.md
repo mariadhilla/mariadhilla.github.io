@@ -1,24 +1,24 @@
-# Thomson Free Bootstrap Portfolio Template
+<!-- # Thomson Free Bootstrap Portfolio Template -->
 
-![thomson](https://demo.themefisher.com/thumbnails/thomson.png)
+<!-- ![thomson](https://demo.themefisher.com/thumbnails/thomson.png) -->
 
-👉🏻[View Live Preview](https://demo.themefisher.com/thomson/)
+<!-- 👉🏻[View Live Preview](https://demo.themefisher.com/thomson/) -->
 
 <!-- download -->
-## Download And installation
+<!-- ## Download And installation
 
-Download this template from [Github](https://github.com/themefisher/thomson/archive/main.zip)
+Download this template from [Github](https://github.com/themefisher/thomson/archive/main.zip) -->
 
 <!-- installation -->
-### Basic Usages
+<!-- ### Basic Usages
 
-After downloading the template, you can simply edit the HTML and CSS files from the `theme` folder. To preview the changes you make to the code, you can open the index.html file in your web browser.
+After downloading the template, you can simply edit the HTML and CSS files from the `theme` folder. To preview the changes you make to the code, you can open the index.html file in your web browser. -->
 
-### Advanced Usage
+<!-- ### Advanced Usage
 
-For advanced usage, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
+For advanced usage, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included. -->
 
-#### Install prerequisites (once for a machine)
+<!-- #### Install prerequisites (once for a machine)
 
 * **Node Installation:** [Install node js](https://nodejs.org/en/download/)
 * **Gulp Installation:** Install gulp globally from your terminal
@@ -57,24 +57,24 @@ npm run build
 
 Now you get a `theme` folder that has all the changes you have made. you can use this folder as your main theme.
 
-👉🏻 [visit documentation](https://docs.themefisher.com/thomson/)
+👉🏻 [visit documentation](https://docs.themefisher.com/thomson/) -->
 
 <!-- reporting issue -->
-## Reporting Issues
+<!-- ## Reporting Issues
 
 We use GitHub Issues as the official bug tracker for the thomson Template. Please Search [existing issues](https://github.com/themefisher/thomson/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/thomson/issues).
+If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/thomson/issues). -->
 
 <!-- support -->
-## Technical Support or Questions (Paid)
+<!-- ## Technical Support or Questions (Paid)
 
-If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.
+If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue. -->
 
 <!-- licence -->
-## License
+<!-- ## License
 
 Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
 
 **Code License:** Released under the [MIT](https://github.com/themefisher/thomson/blob/main/LICENSE) license.
 
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images. -->
