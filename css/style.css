@@ -127,7 +127,7 @@ h6, .h6 {
   top: var(--y, 0);
   left: var(--x, 0);
   transform: translate(calc(-50% + 15px), -50%);
-  z-index: 3;
+  z-index: 5;
   mix-blend-mode: difference;
 }
 
@@ -299,7 +299,7 @@ a:hover {
 }
 
 ul.dropdown-menu {
-  background: rgb(21, 21, 21);
+  background: transparent;
   border-radius: 0px;
   margin: 0px;
   padding: 0px;
@@ -313,10 +313,10 @@ ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
   z-index: 1;
   padding-left: 15px;
   transition: all 0.3s ease-in-out;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #27243e;
-  color: #fafafa;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid transparent;
+  color: #353535;
   text-transform: uppercase;
 }
 ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hover {
@@ -494,7 +494,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
   display: block;
   opacity: 0;
   transition: all 0.4s;
-  background-color: rgba(68, 64, 255, 0.8);
+  background-color: rgba(68, 64, 255, 0.6);
 }
 
 .inner-box:hover .image img {
