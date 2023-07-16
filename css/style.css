@@ -127,7 +127,7 @@ h6, .h6 {
   top: var(--y, 0);
   left: var(--x, 0);
   transform: translate(calc(-50% + 15px), -50%);
-  z-index: 2;
+  z-index: 3;
   mix-blend-mode: difference;
 }
 
@@ -143,9 +143,10 @@ h6, .h6 {
   transition: width .3s, height .3s, opacity .3s;
 }
 
-/* .hover {
-  opacity: 0.5;
-} */
+.hover {
+  width: 80px;
+  height: 80px;
+}
 
 .cursorinnerhover {
   width: 50px;
@@ -493,7 +494,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
   display: block;
   opacity: 0;
   transition: all 0.4s;
-  background-color: rgba(47, 50, 56, 0.8);
+  background-color: rgba(68, 64, 255, 0.8);
 }
 
 .inner-box:hover .image img {

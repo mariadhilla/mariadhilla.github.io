@@ -32,6 +32,15 @@ document.addEventListener('mouseup', function(){
   cursorinner.classList.remove('cursorinnerhover')
 });
 
+a.forEach(item => {
+  item.addEventListener('mouseover', () => {
+    cursor.classList.add('hover');
+  });
+  item.addEventListener('mouseleave', () => {
+    cursor.classList.remove('hover');
+  });
+})
+
 (function ($) {
     'use strict';
     
