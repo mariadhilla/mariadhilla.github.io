@@ -158,6 +158,11 @@ h6, .h6 {
   opacity: .5;
 }
 
+.li-list {
+  list-style-type: '—';
+  padding-inline-start: 1ch;
+}
+
 /* end added */
 
 .text-sm {
@@ -165,7 +170,7 @@ h6, .h6 {
 }
 
 .section {
-  padding: 120px 0px;
+  padding: 80px 0px;
 }
 
 .section-sm {
