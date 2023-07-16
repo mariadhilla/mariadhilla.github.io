@@ -88,6 +88,10 @@ h6, .h6 {
 
 /* added */
 
+.purple {
+  color: #4440ff;
+}
+
 .center {
   width: 50%;
   margin: auto;
@@ -112,7 +116,7 @@ h6, .h6 {
 }
 
 .nav-li {
-  margin: 0 10px;
+  margin: 0 8px;
 }
 
 .cursor {
@@ -320,7 +324,7 @@ ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
   text-transform: uppercase;
 }
 ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hover {
-  color: #4440ff;
+  color: #bbbf00;
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
