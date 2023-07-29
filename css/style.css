@@ -78,8 +78,8 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 1.5em;
 }
 
 h6, .h6 {
@@ -90,6 +90,30 @@ h6, .h6 {
 
 .purple {
   color: #4440ff;
+}
+
+.txt-dark {
+  color: #353535;
+}
+
+.txt-gray {
+  color: #6a6a6a;
+}
+
+.txt-light {
+  color: #bbbbbb;
+}
+
+.txt-lighter {
+  color: #fafafa;
+}
+
+.spacer {
+  padding: 120px;
+}
+
+.spacer-sm {
+  padding: 40px;
 }
 
 .center {
@@ -145,6 +169,7 @@ h6, .h6 {
   transform: translate(-50%, -50%);
   pointer-events: none;
   transition: width .3s, height .3s, opacity .3s;
+  z-index: 5;
 }
 
 .hover {
@@ -249,9 +274,9 @@ a:hover {
 
 .page-title h1 {
   position: relative;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
-.page-title h1:after {
+/* .page-title h1:after {
   position: absolute;
   content: "";
   left: 50%;
@@ -260,7 +285,7 @@ a:hover {
   height: 2px;
   margin-left: -25px;
   background: #4440ff;
-}
+} */
 
 @media (max-width: 575px) {
   h2, .h2 {
@@ -308,10 +333,11 @@ a:hover {
 }
 
 ul.dropdown-menu {
-  background: transparent;
+  background: #fafafa;
   border-radius: 0px;
   margin: 0px;
   padding: 0px;
+  z-index: 1;
 }
 
 ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
@@ -329,7 +355,8 @@ ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
   text-transform: uppercase;
 }
 ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hover {
-  color: #bbbf00;
+  color: #fafafa;
+  background: #4440ff;
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
