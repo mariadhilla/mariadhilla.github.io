@@ -276,8 +276,8 @@
                         </div>
                     </div>
 					<ul>
-                        <li class="li-list"> Half of our respondents (50%) do not wish to meet new people for social eating, and amongst that group, 
-							63% say it is due to <b class="bold">social discomfort</b>
+                        <li class="li-list"> Half of our respondents (50%) did not wish to meet new people for social eating, and amongst that group, 
+							63% said it is due to <b class="bold">social discomfort</b>
 						</li>
                     </ul>
 					<br>
@@ -285,7 +285,7 @@
 					<h6 class="bolder">Challenges & Opportunities</h6>
 					<ul>
 						<li class="li-list"> Yelp has an edge in planning functionalities and coordination abilities, as well as a strong foundation for the discovery of 
-							food and restaurants in comparison to other platforms such as Facebook, Instagram, Pinterest, and NextDoor
+							food and restaurants in comparison to other platforms such as Facebook, Instagram, Pinterest, and Nextdoor
 						</li>
 						<ul>
 							<li class="li-list">Opportunity to <b class="bold">improve its current flow</b></li>
@@ -334,9 +334,9 @@
 					<p>For our user testing, we provided the same social setting for participants during our prototyping sessions:</p>
 					<div class="row mt-4">
 						<div class="col-lg-1"></div>
-						<div class="col-lg-10">
-							<p id="demobox" class="purple" style="padding-left: 20px; padding-bottom: 20px;">"You are a Yelp user, and you want to check out new restaurants to eat at! You are also looking for a companion to eat with 
-								you. Whether this is a person you know very well or someone who you vaguely know…it is up to you!""
+						<div id="demobox" class="col-lg-10">
+							<p class="purple">"You are a Yelp user, and you want to check out new restaurants to eat at! You are also looking for a companion to eat with 
+								you. Whether this is a person you know very well or someone who you vaguely know…it is up to you!"
 							</p>
 						</div>
 						<div class="col-lg-1"></div>
@@ -444,8 +444,14 @@
 					<br>
 
 					<p>The next step was to refine our prototype and create a more familiar interface aligning with Yelp's to replicate the intended experience more accurately.</p>
-					<p class="text-center">↓</p>
-					<p class="bold text-center">How can we make the backend more automated in our next prototype?</p>
+					<div class="row mt-4">
+						<div class="col-lg-1"></div>
+						<div id="demobox" class="col-lg-10">
+							<p class="text-center">↓</p>
+							<p class="bold text-center">How can we make the backend more automated in our next prototype?</p>
+						</div>
+						<div class="col-lg-1"></div>
+					</div>
 
 				</div>
 
@@ -476,7 +482,7 @@
 						<div class="col-lg-7">
 							<img src="../images/yelp hifi sheet.png" alt="google sheet 2" class="img-fluid" width=auto height=auto>
 							<p class="caption">You have publicly pinned Burger Queen, and can see that Samantha and Yvonne also pinned Burger Queen. You're only interested in meeting with Yvonne, so you 
-								check her name off. Yvonne must also be interested in going with you to Burger Queen, so at the bottom of the file, it generates a statement.</p>
+								check her name. Yvonne must also be interested in going with you to Burger Queen, because at the bottom of the file it generates a statement.</p>
 						</div>
 					</div>
 					<br>
@@ -485,7 +491,7 @@
 					</div>
 					<br>
 					<p>For this prototype, we wanted to <b class="bold">give users more control</b> over who they would meet up with, rather than having us manually and randomly choose a person 
-						for them to eat with. We wanted to make sure both parties were mutually interested in meeting up with each other to eat.
+						for them to eat with. We wanted to make sure both parties were mutually interested in meeting up with each other to eat. People are only notified that someone is interested in meeting with them if they are also interested; that way users can avoid awkward situations.
 					</p>
 					<p> Additionally, we implemented a <b class="bold">"Privately Pin Restaurant”</b> feature for users who do not want to share certain restaurants they're interested in.</p>
 					
@@ -498,10 +504,10 @@
 							<p class="caption">This matrix keeps track of what restaurants users are interested in and sends this information back to users' screens by showing other interested users' names under the restaurant.</p>
                         </div>
                         <div class="col-lg-6">
-							<div class="vertical-center">
+							<!-- <div class="vertical-center"> -->
 								<img src="../images/yelp hifi matrix 2.png" alt="matrix 2" class="img-fluid" width=auto height=auto>
 								<p class="caption">In this matrix depicting users' interest in going with each other to Limegrass, Samantha and Angela both indicated an interest in each other, so they would both get a notification.</p>
-							</div>
+							<!-- </div> -->
                         </div>
                     </div>
 
