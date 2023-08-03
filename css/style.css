@@ -83,10 +83,16 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /* added */
+
+#demobox {
+  background-color: rgb(69, 66, 255, 0.05);
+  padding-top: 10px;
+  /* border-radius: 20px; */
+}
 
 .purple {
   color: #4440ff;
@@ -116,6 +122,12 @@ h6, .h6 {
   padding: 40px;
 }
 
+.caption {
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
 .center {
   width: 50%;
   margin: auto;
@@ -131,11 +143,23 @@ h6, .h6 {
   padding: 0;
 }
 
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .bold {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .bolder {
+  font-weight: 700;
+}
+
+.boldest {
   font-weight: 1000;
 }
 
@@ -198,6 +222,7 @@ h6, .h6 {
 .li-list {
   list-style-type: '—';
   padding-inline-start: 1ch;
+  margin: 10px 0;
 }
 
 /* end added */
@@ -259,12 +284,14 @@ h6, .h6 {
 }
 
 a {
-  color: #353535;
+  color: #4440ff;
   transition: all 0.25s ease;
+  /* text-decoration: underline; */
 }
 a:hover {
   color: #4440ff;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: #4440ff;
   outline: none;
 }
 
