@@ -208,6 +208,15 @@ h6, .h6 {
   z-index: 5;
 }
 
+@media only screen and (max-width: 700px) {
+  .cursor {
+      display: 'none'
+  }
+  .cursor2 {
+    display: 'none'
+}
+}
+
 .hover {
   width: 80px;
   height: 80px;
