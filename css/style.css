@@ -211,9 +211,11 @@ h6, .h6 {
 @media only screen and (max-width: 700px) {
   .cursor {
     display: 'none';
+    opacity: 0;
   }
   .cursor2 {
     display: 'none';
+    opacity: 0;
   }
 }
 
