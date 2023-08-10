@@ -452,6 +452,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 .dropdown:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
+  transform: scaleY(1);
   -webkit-transform: scaleY(1);
   -moz-transform: scaleY(1);
   -ms-transform: scaleY(1);
