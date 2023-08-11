@@ -185,7 +185,7 @@ h6, .h6 {
   background: #fff;
   border-radius: 50%;
   border: 1px #353535;
-  transition: all 100ms ease-out;
+  transition: all 125ms ease-out;
   position: fixed;
   pointer-events: none;
   top: var(--y, 0);
