@@ -262,6 +262,11 @@ h6, .h6 {
   margin: 10px 0;
 }
 
+.bg-outline {
+  border: 1px solid #4440ff;
+  border-radius: 22px;
+}
+
 /* end added */
 
 .text-sm {
@@ -613,7 +618,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 }
 
 .inner-box:hover .image img {
-  /* transform: scale(1.1); */
+  transform: scale(1.07);
 }
 
 .inner-box:hover .image .overlay-box:before {
