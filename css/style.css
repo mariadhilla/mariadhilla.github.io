@@ -18,6 +18,7 @@ VERSION:	1.0
 html {
   overflow-x: hidden;
   cursor: none;
+  scroll-behavior: smooth;
 }
 
 /* #circularcursor {
@@ -266,6 +267,27 @@ h6, .h6 {
 .bg-outline {
   border: 1px solid #4440ff;
   border-radius: 22px;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 40px; /* Place the button 30px from the right */
+  z-index: 4; /* Make sure it does not overlap */
+  border: 1px solid #4440ff; /* Remove borders */
+  outline: #4440ff; /* Remove outline */
+  background-color: #fafafa; /* Set a background color */
+  color: #4440ff; /* Text color */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #6a6a6a; /* Add a dark-grey background on hover */
+  color: #fafafa; /* Text color */
+  transition: all 0.25s ease;
 }
 
 /* end added */
