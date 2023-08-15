@@ -269,6 +269,12 @@ h6, .h6 {
   border-radius: 22px;
 }
 
+.outline {
+  border: 1px solid #4440ff;
+  border-radius: 22px;
+  padding: 20px;
+}
+
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
