@@ -92,6 +92,7 @@ h6, .h6 {
   font-size: 18px;
 }
 
+/*************************************************************************************/
 /* added */
 
 #demobox {
@@ -150,10 +151,10 @@ h6, .h6 {
 }
 
 .vertical-center {
-  margin: 0;
-  position: absolute;
+  position: relative;
   top: 50%;
   -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -226,7 +227,7 @@ h6, .h6 {
   height: 10px;
   border-radius: 100%;
   background-color: #4440ff;
-  opacity: .5;
+  opacity: .7;
   position: fixed;
   transform: translate(-50%, -50%);
   pointer-events: none;
@@ -268,6 +269,7 @@ h6, .h6 {
 }
 
 /* end added */
+/*************************************************************************************/
 
 .text-sm {
   font-size: 14px;
@@ -618,7 +620,8 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 }
 
 .inner-box:hover .image img {
-  transform: scale(1.07);
+  /* transform: scale(1.07); */
+  opacity: 0.3;
 }
 
 .inner-box:hover .image .overlay-box:before {
