@@ -3,17 +3,12 @@
  * TWITTER: https://twitter.com/themefisher
  * FACEBOOK: https://www.facebook.com/themefisher
  * GITHUB: https://github.com/themefisher/
- */
+*/
 
-/*!------------------------------------------------------------------
-[MAIN STYLESHEET]
-
-PROJECT:	Thomson
-VERSION:	1.0
--------------------------------------------------------------------*/
 /*------------------------------------------------------------------
-[TABLE OF CONTENTS]
+[MAIN STYLESHEET]
 -------------------------------------------------------------------*/
+
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,500,600,700,800,900,1000|Work+Sans:400,700,800");
 html {
   overflow-x: hidden;
