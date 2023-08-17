@@ -9,7 +9,7 @@ for (let i = 0; i < segNum; i++) {
 }
 
 function setup() {
-  createCanvas(710, 400);
+  createCanvas(400, 400);
   strokeWeight(10);
   stroke('rgba(68, 64, 255, 0.75)');
 }
