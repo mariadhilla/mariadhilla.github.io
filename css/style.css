@@ -293,15 +293,23 @@ h6, .h6 {
 
 .hero {
   position: relative;
-  width: 100vw;
+  width: 90vw;
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .hero-content {
   position: relative;
+}
+
+.hero-spacer {
+  padding-top: 15%;
+}
+
+.hide {
+  display: none !important;
 }
 
 /* end added */

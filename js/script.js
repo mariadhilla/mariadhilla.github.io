@@ -61,6 +61,34 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+let mouseCursor = document.querySelector(".cursor");
+let mouseCursor2 = document.querySelector(".cursor2");
+let iframes = document.querySelectorAll("iframe");
+
+window.addEventListener('mousemove', cursor);
+window.addEventListener('mousemove', cursor2);
+
+function cursor(e){
+
+	mouseCursor.style.top = "calc(" +e.pageY + "px - 1rem)";
+  	mouseCursor.style.left = "calc(" +e.pageX + "px - 1rem)";
+}
+
+iframes.forEach(frame =>{
+    
+  frame.addEventListener("mouseleave", () => {
+    mouseCursor.classList.remove("hide");
+    mouseCursor2.classList.remove("hide");
+  });
+
+    frame.addEventListener("mouseover", () => {
+    mouseCursor.classList.add("hide");
+    mouseCursor2.classList.add("hide");
+  });
+  	
+});
+
+
 (function ($) {
     'use strict';
     
