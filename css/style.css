@@ -301,12 +301,14 @@ h6, .h6 {
 }
 
 .hero-content {
-  position: relative;
+  position: absolute;
+  top: 35%;
+  transform: translate(0, -50%);
 }
 
-.hero-spacer {
+/* .hero-spacer {
   padding-top: 15%;
-}
+} */
 
 .hide {
   display: none !important;
