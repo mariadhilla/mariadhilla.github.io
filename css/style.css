@@ -291,6 +291,19 @@ h6, .h6 {
   transition: all 0.25s ease;
 }
 
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  position: relative;
+}
+
 /* end added */
 /*************************************************************************************/
 
