@@ -310,6 +310,72 @@ h6, .h6 {
   transform: translate(0, -50%);
 }
 
+.layer {
+  position: absolute;
+  z-index: 1;
+}
+
+#l1 {
+  bottom: 0;
+  left: 0;
+}
+
+#l2 {
+  top: 50px;
+  left: 170px;
+}
+
+#l3 {
+  top: 400px;
+  left: 40%;
+}
+
+#l4 {
+  top: 200px;
+  right: 40%;
+}
+
+#l5 {
+  top: 100px;
+  right: -10px;
+}
+
+#l6 {
+  bottom: -20px;
+  left: 10%;
+}
+
+#l7 {
+  bottom: 120px;
+  left: 20%;
+}
+
+#l8 {
+  bottom: 190px;
+  right: 30%;
+}
+
+#l9 {
+  bottom: 100px;
+  right: -10px;
+}
+
+#l10 {
+  bottom: 10px;
+  right: 100px;
+}
+
+#l11 {
+  bottom: 310px;
+  left: 20px;
+}
+
+.layer-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 /* end added */
 /*************************************************************************************/
 
