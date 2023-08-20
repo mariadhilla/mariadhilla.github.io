@@ -8,6 +8,7 @@
 var cursor = document.querySelector('.cursor');
 var cursorinner = document.querySelector('.cursor2');
 var a = document.querySelectorAll('a');
+var label = document.querySelectorAll('label');
 
 document.addEventListener('mousemove', function(e){
   var x = e.clientX;
@@ -33,6 +34,15 @@ document.addEventListener('mouseup', function(){
 });
 
 a.forEach(item => {
+  item.addEventListener('mouseover', () => {
+    cursor.classList.add('hover');
+  });
+  item.addEventListener('mouseleave', () => {
+    cursor.classList.remove('hover');
+  });
+})
+
+label.forEach(item => {
   item.addEventListener('mouseover', () => {
     cursor.classList.add('hover');
   });
@@ -77,17 +87,17 @@ window.onload = function () {
       c5left = document.getElementById('l5').offsetLeft,
       c5top = document.getElementById('l5').offsetTop,
       c6left = document.getElementById('l6').offsetLeft,
-      c6top = document.getElementById('l6').offsetTop,
+      c6top = document.getElementById('l6').offsetTop;
       c7left = document.getElementById('l7').offsetLeft,
       c7top = document.getElementById('l7').offsetTop,
-      c8left = document.getElementById('l8').offsetLeft,
-      c8top = document.getElementById('l8').offsetTop,
-      c9left = document.getElementById('l9').offsetLeft,
-      c9top = document.getElementById('l9').offsetTop;
-      c10left = document.getElementById('l10').offsetLeft,
-      c10top = document.getElementById('l10').offsetTop;
-      c11left = document.getElementById('l11').offsetLeft,
-      c11top = document.getElementById('l11').offsetTop;
+      // c8left = document.getElementById('l8').offsetLeft,
+      // c8top = document.getElementById('l8').offsetTop,
+      // c9left = document.getElementById('l9').offsetLeft,
+      // c9top = document.getElementById('l9').offsetTop;
+      // c10left = document.getElementById('l10').offsetLeft,
+      // c10top = document.getElementById('l10').offsetTop;
+      // c11left = document.getElementById('l11').offsetLeft,
+      // c11top = document.getElementById('l11').offsetTop;
 
   parallaxBox.onmousemove = function (event) {
       event = event || window.event;
@@ -101,10 +111,10 @@ window.onload = function () {
       mouseParallax('l5', c5left, c5top, x, y, 30);
       mouseParallax('l6', c6left, c6top, x, y, 45);
       mouseParallax('l7', c7left, c7top, x, y, 30);
-      mouseParallax('l8', c8left, c8top, x, y, 25);
-      mouseParallax('l9', c9left, c9top, x, y, 40);
-      mouseParallax('l10', c10left, c10top, x, y, 45);
-      mouseParallax('l11', c11left, c11top, x, y, 20);
+      // mouseParallax('l8', c8left, c8top, x, y, 25);
+      // mouseParallax('l9', c9left, c9top, x, y, 40);
+      // mouseParallax('l10', c10left, c10top, x, y, 45);
+      // mouseParallax('l11', c11left, c11top, x, y, 20);
   };
 
 };
