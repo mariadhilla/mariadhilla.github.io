@@ -278,7 +278,7 @@ h6, .h6 {
   padding: 20px;
 }
 
-#myBtn {
+#myBtn { /* back to top */
   display: none; 
   position: fixed; 
   bottom: 20px; 
@@ -412,7 +412,7 @@ h6, .h6 {
   padding: 18px 38px;
   border: 2px solid transparent;
   text-transform: uppercase;
-  border-radius: 0px;
+  border-radius: 12px;
   font-size: 14px;
   line-height: 14px;
   font-weight: 600;
@@ -434,8 +434,9 @@ h6, .h6 {
 }
 
 .btn-black {
-  background: #353535;
-  color: #fafafa;
+  background: #fafafa;
+  color: #353535;
+  border: 1px solid #4440ff; 
 }
 .btn-black:hover {
   background: #4440ff;
