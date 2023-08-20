@@ -1,17 +1,17 @@
 <svg width="950" height="771" viewBox="0 0 950 771" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1461_298)">
 <g filter="url(#filter0_f_1461_298)">
-<circle cx="708.589" cy="671.147" r="391.176" fill="#4440FF" fill-opacity="0.3"/>
+<circle cx="708.589" cy="707.147" r="391.176" fill="#4440FF" fill-opacity="0.4"/>
 </g>
 <g filter="url(#filter1_f_1461_298)">
 <circle cx="-273.544" cy="1145.31" r="374.691" fill="#4440FF" fill-opacity="0.3"/>
 </g>
 <g filter="url(#filter2_f_1461_298)">
-<circle cx="265.941" cy="-82.0588" r="236.941" fill="#4440FF" fill-opacity="0.3"/>
+<circle cx="265.941" cy="-82.0588" r="236.941" fill="#4440FF" fill-opacity="0.4"/>
 </g>
 </g>
 <defs>
-<filter id="filter0_f_1461_298" x="95.0004" y="57.5589" width="1227.18" height="1227.18" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_f_1461_298" x="95.0004" y="93.5589" width="1227.18" height="1227.18" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="111.206" result="effect1_foregroundBlur_1461_298"/>
