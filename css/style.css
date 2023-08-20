@@ -43,6 +43,10 @@ body {
   margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  background-image: url('../images/illustrations/glow-bg.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 p {
@@ -297,7 +301,7 @@ h6, .h6 {
 
 .hero {
   position: relative;
-  width: 90vw;
+  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -316,8 +320,7 @@ h6, .h6 {
 }
 
 #l1 {
-  bottom: 0;
-  left: 0;
+  top: 70%;
 }
 
 #l2 {
@@ -337,7 +340,7 @@ h6, .h6 {
 
 #l5 {
   top: 100px;
-  right: -10px;
+  right: 30px;
 }
 
 #l6 {
@@ -356,8 +359,8 @@ h6, .h6 {
 }
 
 #l9 {
-  bottom: 100px;
-  right: -10px;
+  bottom: 440px;
+  right: 340px;
 }
 
 #l10 {
