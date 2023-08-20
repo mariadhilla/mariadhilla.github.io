@@ -314,6 +314,7 @@ h6, .h6 {
   -moz-background-size: cover; 
   -o-background-size: cover;
   background-size: cover;
+  border-radius: 22px 22px 0px 0px;
   border-bottom: 1px solid #4440ff;
 }
 
