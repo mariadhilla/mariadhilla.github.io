@@ -230,14 +230,16 @@ h6, .h6 {
   width: 10px;
   height: 10px;
   border-radius: 100%;
-  background-color: #4440ff;
-  opacity: .7;
+  background-color: #353535; 
+  opacity: .85;
   position: fixed;
   transform: translate(-50%, -50%);
   pointer-events: none;
   transition: width .3s, height .3s, opacity .3s;
   z-index: 5;
+  /* mix-blend-mode: exclusion; */
 }
+/* bbbf00  */
 
 @media only screen and (max-width: 700px) {
   .cursor {
@@ -392,6 +394,34 @@ h6, .h6 {
   left: 0;
 }
 
+.big-font {
+  font-size: 30px;
+  line-height: 1.3em;
+}
+
+.bg-color {
+  background-color: #fafafa;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/purple.png");
+
+  /* Set a specific height */
+  min-height: 10px; 
+  max-height: 700px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* end added */
 /*************************************************************************************/
 
@@ -406,6 +436,7 @@ h6, .h6 {
 
 .section-sm {
   padding: 60px 0px;
+  width: 100%;
 }
 
 .btn {
