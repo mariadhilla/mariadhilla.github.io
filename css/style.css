@@ -222,7 +222,7 @@ h6, .h6 {
   left: 0;
   top: 0;
   transform: translate(calc(-50% + 15px), -50%);
-  backdrop-filter: blur(1px);
+  /* backdrop-filter: blur(1px); */
   z-index: 5;
 }
 
