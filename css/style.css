@@ -12,7 +12,7 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,500,600,700,800,900,1000|Work+Sans:400,700,800");
 html {
   overflow-x: hidden;
-  cursor: none;
+  /* cursor: none; */
   scroll-behavior: smooth;
 }
 
@@ -211,7 +211,7 @@ h6, .h6 {
 } */
 
 
-.cursor {
+/* .cursor {
   width: 50px;
   height: 50px;
   border-radius: 100%;
@@ -222,11 +222,11 @@ h6, .h6 {
   left: 0;
   top: 0;
   transform: translate(calc(-50% + 15px), -50%);
-  /* backdrop-filter: blur(1px); */
+  /* backdrop-filter: blur(1px);
   z-index: 5;
-}
+} */
 
-.cursor2 {
+/* .cursor2 {
   width: 10px;
   height: 10px;
   border-radius: 100%;
@@ -237,8 +237,8 @@ h6, .h6 {
   pointer-events: none;
   transition: width .3s, height .3s, opacity .3s;
   z-index: 5;
-  /* mix-blend-mode: exclusion; */
-}
+  /* mix-blend-mode: exclusion;
+} */
 /* bbbf00  */
 
 @media only screen and (max-width: 700px) {
