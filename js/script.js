@@ -81,6 +81,7 @@ window.onload=function() { if (document.getElementById) {
     rats.style.backgroundColor="transparent";
     rats.style.visibility="hidden";
     rats.style.zIndex="0";
+    rats.style.opacity="0.99";
     document.body.appendChild(tiny[i]=rats);
     starv[i]=0;
     tinyv[i]=0;
@@ -88,6 +89,7 @@ window.onload=function() { if (document.getElementById) {
     rats.style.backgroundColor="transparent";
     rats.style.visibility="hidden";
     rats.style.zIndex="0";
+    rats.style.opacity="0.99";
     var rlef=createDiv(1, 5);
     var rdow=createDiv(5, 1);
     rats.appendChild(rlef);
