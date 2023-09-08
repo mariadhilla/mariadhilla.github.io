@@ -78,7 +78,6 @@ window.onload=function() { if (document.getElementById) {
   var i, rats, rlef, rdow;
   for (var i=0; i<sparkles; i++) {
     var rats=createDiv(3, 3);
-    rats.style.backgroundColor="transparent";
     rats.style.visibility="hidden";
     rats.style.zIndex="0";
     rats.style.opacity="0.99";
@@ -171,10 +170,15 @@ function update_tiny(i) {
   else tiny[i].style.visibility="hidden";
 }
 document.onmousemove=mouse;
-function mouse(e) {
+function mouse(e, event) {
   if (e) {
     y=e.pageY;
     x=e.pageX;
+  }
+  else {
+    set_scroll();
+    y=event.y+sdown;
+    x=event.x+sleft;
   }
 }
 window.onscroll=set_scroll;
