@@ -312,7 +312,7 @@ h6, .h6 {
 }
 
 .hero-bg {
-  background: url('../images/illustrations/glow-bg.svg') no-repeat center center;
+  background: url('../images/illustrations/glow-bg.png') no-repeat center center;
   -webkit-background-size: cover; 
   -moz-background-size: cover; 
   -o-background-size: cover;
