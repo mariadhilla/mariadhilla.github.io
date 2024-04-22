@@ -540,6 +540,7 @@ a:hover {
     line-height: 43px;
   }
 }
+
 .cd-headline.clip span {
   padding: 0px;
 }
@@ -666,7 +667,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 
   .cd-headline2 {
     font-size: 23px;
-    line-height: 21px;
+    line-height: 30px;
     font-weight: 300;
   }
 
@@ -688,7 +689,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 
   .cd-headline2 {
     font-size: 23px;
-    line-height: 21px;
+    line-height: 30px;
     font-weight: 300;
   }
 
@@ -709,7 +710,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
   }
   .cd-headline2 {
     font-size: 23px;
-    line-height: 21px;
+    line-height: 30px;
     font-weight: 300;
   }
   .btn-group, .btn-group-vertical {
@@ -729,7 +730,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
   }
   .cd-headline2 {
     font-size: 23px;
-    line-height: 21px;
+    line-height: 30px;
     font-weight: 300;
   }
   .btn-group, .btn-group-vertical {
